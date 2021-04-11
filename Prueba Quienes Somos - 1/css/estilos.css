@@ -1,0 +1,193 @@
+:root{
+    --rojo: #E50914;
+    --Fondo: #141414;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.centrado{
+    text-align: center;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: var(--Fondo);
+    text-align: justify;
+
+}
+body .descripcionPrincipal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:darkgrey;
+}
+
+body .Objetivodelsitioweb{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:darkgrey;
+}
+body .empresa{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:darkgrey;
+}
+body .mision{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:darkgrey;
+
+}
+body .vision{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:darkgrey;
+
+}
+body .conocenos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:darkgrey;
+    
+}
+.contenedor{
+    width:90%;
+    margin:auto;
+
+}
+
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    /*aqui ajuste el menu superior para que quedara la foto de un lado y el menu del otro*/
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+header .logotipo{
+    font-weight: normal;
+    font-size: auto;
+
+}
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    /* aqui use el margin-right para separar cada una de las opciones del menu*/
+    margin-right: 20px;
+}
+/*aqui use un header nav a.activo para que cuando el cursor pase por arriba de los elementos 
+estos cambien a un color blanco y saber cual vamos a presionar*/
+header nav a:hover,
+header nav a.activo{
+    color:#FFF;
+}
+
+/*imagenes y logo */
+
+.salascine{
+    background: none;
+        width:210px;
+        height:300px;
+    padding:0px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-right: 0px;
+
+}
+
+.logo1{
+    background: none;
+        width:300px;
+        height: 400px;
+    padding:0px;
+    margin-top: 70px;
+    margin-left: 570px;
+    margin-right: 0px;
+}
+.boleteria{
+    background: none;
+        width:210px;
+        height: 350px;
+    padding:0px;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 0px;
+}
+.todo{
+    background: none;
+        width:210px;
+        height: 350px;
+    padding:0px;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 0px;
+}
+.boletos{
+    background: none;
+        width:210px;
+        height: 350px;
+    padding:0px;
+    margin-top: 70px;
+    margin-left: 570px;
+    margin-right: 0px;
+}
+.video{
+    background: none;
+        width:210px;
+        height: 350px;
+    padding:0px;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right: 0px;
+}
+footer{
+    width:100%;
+    background: #000000;
+    color:#ffffff;
+    margin-top: 200px;
+}
+
+.container-body{
+    width:100%;
+    max-width: 1200px;
+    display:flex;
+}
+
+
+.shared-panel{
+	overflow: auto;
+}
+.shared-panel span{
+	margin: 10px 0;
+	font-size: 16px;
+	font-weight: 600;
+}
+.shared {
+	display: inline-block;
+	width: 30px; 
+	height: 30px;
+	margin: 5px 0; 
+	padding: 0; 
+	background: url("../img/shared.png") no-repeat; 
+	margin-right: 5px; 
+	cursor: pointer;
+	border-radius: 50%;
+}
+.shared:hover{
+	opacity: 0.7;
+}
+.shared.gp {background-position: 0px 0px; background-color: #E62B34;}
+.shared.tt {background-position: 0px -30px; background-color: #43BDF0;}
+.shared.ce {background-position: 0px -60px; background-color: #8A898D;}
+.shared.wa {background-position: 0px -90px; background-color: #0dc143;}
+.shared.fb {background-position: 0px -120px; background-color: #6081C4;}
+
+.st2{border-radius: 0;}
+.st3{border-radius: 5px;}
+
+
